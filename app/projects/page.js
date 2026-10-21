@@ -265,7 +265,7 @@ export default function Projects() {
             </p>
 
             <Link
-              href="https://github.com/ArafatAli-07"
+              href="https://github.com/ArafatAli-io"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-7 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-7 py-3 font-semibold transition hover:bg-blue-500"

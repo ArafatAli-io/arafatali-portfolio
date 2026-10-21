@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Social links */}
           <div className="flex items-center gap-3">
             <a
-              href="https://www.linkedin.com/in/arafat-ali-dev"
+              href="https://www.linkedin.com/in/arafatali-io"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -37,7 +37,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.instagram.com/arafat_ali7"
+              href="https://www.instagram.com/arafatali.io"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -55,7 +55,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/ArafatAli-07"
+              href="https://github.com/ArafatAli-io"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"

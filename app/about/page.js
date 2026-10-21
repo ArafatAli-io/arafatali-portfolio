@@ -26,7 +26,7 @@ const About = () => {
           <div className="flex flex-col">
             <Avatar className="mt-[13vh] h-50 w-45 cursor-pointer border-2 border-blue-100 drop-shadow-lg drop-shadow-blue-100 duration-800 hover:scale-105 md:my-auto">
               <AvatarImage
-                src="https://github.com/ArafatAli-07.png"
+                src="https://github.com/ArafatAli-io.png"
                 alt="Profile_Pic"
               />
               <AvatarFallback>AA</AvatarFallback>
@@ -246,7 +246,7 @@ const About = () => {
 
         <div className="mt-4 flex flex-wrap gap-4">
           <a
-            href="https://github.com/ArafatAli-07"
+            href="https://github.com/ArafatAli-io"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-xl border-2 border-gray-500 px-4 py-2 font-bold transition hover:bg-gray-500/20"
@@ -256,7 +256,7 @@ const About = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/arafat-ali-dev"
+            href="https://www.linkedin.com/in/arafatali-io"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-xl border-2 border-blue-500 px-4 py-2 font-bold transition hover:bg-blue-500/20"

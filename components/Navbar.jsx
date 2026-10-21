@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const openGithub = () => {
     window.open(
-      'https://github.com/ArafatAli-07',
+      'https://github.com/ArafatAli-io',
       '_blank',
       'noopener,noreferrer'
     );
@@ -44,7 +44,7 @@ const Navbar = () => {
           >
             <Avatar className="h-10 w-10 border-2 border-blue-500/30 bg-blue-500/10 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:border-blue-500/60 group-hover:shadow-md group-hover:shadow-blue-500/20">
               <AvatarImage
-                src="https://github.com/ArafatAli-07.png"
+                src="https://github.com/ArafatAli-io.png"
                 alt="Arafat Ali"
               />
               <AvatarFallback className="bg-blue-500/15 text-blue-400">

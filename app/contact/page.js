@@ -49,15 +49,15 @@ export default function Contact() {
     {
       title: "GitHub",
       description: "Explore my projects, experiments and source code.",
-      value: "ArafatAli-07",
-      href: "https://github.com/ArafatAli-07",
+      value: "ArafatAli-io",
+      href: "https://github.com/ArafatAli-io",
       icon: <Github size={24} />,
     },
     {
       title: "LinkedIn",
       description: "Connect with me and let's grow our professional network.",
       value: "Arafat Ali",
-      href: "https://www.linkedin.com/in/arafat-ali-dev",
+      href: "https://www.linkedin.com/in/arafatali-io",
       icon: <Linkedin size={24} />,
     },
   ];
@@ -168,11 +168,11 @@ export default function Contact() {
               <div className="mt-4 flex gap-3">
                 {[
                   {
-                    href: "https://github.com/ArafatAli-07",
+                    href: "https://github.com/ArafatAli-io",
                     icon: <Github size={21} />,
                   },
                   {
-                    href: "https://www.linkedin.com/in/arafat-ali-dev",
+                    href: "https://www.linkedin.com/in/arafatali-io",
                     icon: <Linkedin size={21} />,
                   },
                   {
