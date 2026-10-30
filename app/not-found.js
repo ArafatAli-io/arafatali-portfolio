@@ -10,7 +10,7 @@ import {
 export default function NotFound() {
   return (
     <main className="relative isolate z-50 flex min-h-[85vh] items-center justify-center overflow-hidden bg-[#070812] px-5 py-16 text-white sm:px-8">
-      {/* Background effects */}
+      
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 -z-10 overflow-hidden"
@@ -30,7 +30,7 @@ export default function NotFound() {
       </div>
 
       <section className="w-full max-w-3xl">
-        {/* Header */}
+       
         <div className="mb-12 flex items-center justify-between sm:mb-16">
           <Link
             href="/"
@@ -45,12 +45,12 @@ export default function NotFound() {
           </span>
         </div>
 
-        {/* Main card */}
+        
         <div className="group relative overflow-hidden rounded-3xl border border-white/[0.12] bg-white/[0.045] px-6 py-10 text-center shadow-[0_20px_100px_rgba(0,0,0,0.3)] backdrop-blur-2xl transition-all duration-500 hover:border-indigo-400/30 hover:bg-white/[0.065] hover:shadow-[0_20px_100px_rgba(99,102,241,0.12)] sm:px-12 sm:py-14">
-          {/* Top highlight */}
+          
           <div className="pointer-events-none absolute left-1/2 top-0 h-px w-2/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-indigo-400/70 to-transparent" />
 
-          {/* Animated MP4 icon */}
+          
           <div className="mx-auto mb-7 flex h-28 w-28 items-center justify-center overflow-hidden rounded-3xl border border-indigo-300/20 bg-indigo-400/[0.08] p-2 transition-all duration-500 group-hover:-translate-y-1 group-hover:scale-110 group-hover:bg-indigo-400/[0.15] sm:h-32 sm:w-32">
             <video
               src="/404page.mp4"
@@ -64,7 +64,7 @@ export default function NotFound() {
             />
           </div>
 
-          {/* 404 heading */}
+          
           <div className="relative mx-auto mb-5 w-fit">
             <span
               aria-hidden="true"
@@ -78,7 +78,7 @@ export default function NotFound() {
             </h1>
           </div>
 
-          {/* Error message */}
+          
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.32em] text-indigo-300 sm:text-sm">
             Page not found
           </p>
@@ -92,7 +92,7 @@ export default function NotFound() {
             or the page may have been moved to another location.
           </p>
 
-          {/* Action buttons */}
+          
           <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/"
@@ -119,7 +119,7 @@ export default function NotFound() {
             </Link>
           </div>
 
-          {/* Footer hint */}
+          
           <div className="mt-10 flex items-center justify-center gap-2 text-[10px] uppercase tracking-[0.2em] text-slate-500 sm:text-xs">
             <SearchX size={14} />
             <span>Check the URL or return home</span>
