@@ -116,8 +116,8 @@ const About = () => {
             </p>
           </div>
 
-          <div className="rounded-xl border-2 border-green-500 p-2 transition duration-300 hover:scale-105">
-            <h3 className="text-xl font-bold text-green-600">
+          <div className="rounded-xl border-2 border-blue-500 p-2 transition duration-300 hover:scale-105">
+            <h3 className="text-xl font-bold text-blue-400">
               Backend Development
             </h3>
 
@@ -127,8 +127,8 @@ const About = () => {
             </p>
           </div>
 
-          <div className="rounded-xl border-2 border-purple-500 p-4 transition duration-300 hover:scale-105">
-            <h3 className="text-xl font-bold text-purple-400">
+          <div className="rounded-xl border-2 border-blue-500 p-4 transition duration-300 hover:scale-105">
+            <h3 className="text-xl font-bold text-blue-400">
               Problem Solving
             </h3>
 
@@ -138,8 +138,8 @@ const About = () => {
             </p>
           </div>
 
-          <div className="rounded-xl border-2 border-yellow-500 p-4 transition duration-300 hover:scale-105">
-            <h3 className="text-xl font-bold text-yellow-600">UI & UX</h3>
+          <div className="rounded-xl border-2 border-blue-500 p-4 transition duration-300 hover:scale-105">
+            <h3 className="text-xl font-bold text-blue-400">UI & UX</h3>
 
             <p className="mt-2 font-semibold">
               Creating clean, modern and responsive designs with attention to

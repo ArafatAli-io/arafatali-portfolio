@@ -1,7 +1,46 @@
-import { CheckSquare, Gamepad2, CircleDollarSign, Code2, Link} from "lucide-react";
+import { CheckSquare, Gamepad2, CircleDollarSign, Code2, Link, ListTodo} from "lucide-react";
 
 
 export const projects = [
+{
+  title: "TaskManager",
+  category: "Full Stack Application",
+  description:
+    "A full-stack task and productivity management application that helps users organize projects, manage daily tasks, track progress, and improve productivity through a modern and user-friendly interface.",
+  features: [
+    "User authentication and secure login",
+    "Create and manage multiple projects",
+    "Create, update, and delete tasks",
+    "Kanban board for visual task management",
+    "Set task priorities and deadlines",
+    "Track task progress and productivity",
+    "Create and organize personal notes",
+    "Manage reminders and recurring schedules",
+    "Organize daily routines and activities",
+    "AI-powered productivity assistant",
+    "File upload and management",
+    "Responsive and modern UI",
+    "RESTful API integration",
+  ],
+  technologies: [
+    "Next.js 16",
+    "React 19",
+    "Tailwind CSS 4",
+    "JavaScript",
+    "Node.js",
+    "Express.js 5",
+    "MongoDB",
+    "Mongoose",
+    "JWT Authentication",
+    "Axios",
+  ],
+  icon: <ListTodo size={32} />,
+  color: "purple",
+  github: "https://github.com/ArafatAli-io/TaskManager",
+  live: "",
+  featured: true,
+},
+
     {
   title: "BitLinks",
   category: "Full Stack Application",
@@ -28,7 +67,7 @@ export const projects = [
   color: "blue",
   github: "https://github.com/ArafatAli-io/Bitlinks",
   live: "https://bitlinks-seven-alpha.vercel.app/shorten",
-  featured: true,
+  featured: false,
 },
 
 
